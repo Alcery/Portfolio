@@ -1,3 +1,24 @@
 /* Author: Nicholas Le
    Date: 08/20/19
 */
+
+
+
+
+
+
+
+
+/* Nav Styles */
+nav > a.nav-link:visited,
+nav > a.nav-link:link {
+    color: #696969;
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+
+nav > a.nav-link:hover,
+nav > a.nav-link:active {
+    color: #000;
+    text-decoration: underline;
+}
