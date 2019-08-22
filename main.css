@@ -7,7 +7,16 @@
     text-align: center;
 }
 
-
+/* body div styles */
+ #experience {
+    height: 60vh;
+    padding-top: 55px;
+  }
+  
+ #about, #education, #skills{
+      height: 50vh;
+      padding-top: 55px;
+  }
 
 
 
@@ -24,4 +33,17 @@ nav > ul > li > a.nav-link:hover,
 nav > ul > li > a.nav-link:active {
     color: #000;
     text-decoration: underline;
+}
+
+/* form styles */
+.send-button button[type="submit"]{
+	color: #fff;
+  background: #e74c3c;
+  border: none;
+	width: 20%;
+	padding: 10px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: .5s all ease;
+  cursor: pointer;
 }
