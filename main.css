@@ -47,3 +47,39 @@ nav > ul > li > a.nav-link:active {
 	transition: .5s all ease;
   cursor: pointer;
 }
+
+/* footer styles */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  height: 150px;
+  background-color: #999999;
+}
+
+.navbar-left {
+  display: inline-block;
+  text-align: center;
+}
+
+footer a{
+    color: #222;
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;    
+}
+.social:hover {
+     -webkit-transform: scale(1.0);
+     -webkit-transition-duration: 0.5s;
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     color: #222;
+     
+ }
+ .phone{
+   visibility: hidden;
+}

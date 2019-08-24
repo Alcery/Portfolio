@@ -10,6 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Icon kit code -->
+    <script src="https://kit.fontawesome.com/c6c6137a67.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="normalize.css">
@@ -62,12 +65,16 @@
           <h4 class="card-title" id="contact">Contact Me</h4>
           <p class="card-text">
             <div class="form-group">
-              <form action="Elmirage19@gmail.com" method="post">
+              <form name="contactform" action="Elmirage19@gmail.com" method="post" onsubmit="return validateForm()">
+
                 <label for="">Email</label>
-                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="example@provider.com" required="required">
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="example@provider.com"  >
+
                 <label for="">Subject</label>
-                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
-                <textarea name="text" class="form-control" id="text" cols="30" rows="10" placeholder="Message" required="required"></textarea>
+                <input type="text" class="form-control" id="subject" placeholder="Subject"   name="subject">
+
+                <textarea name="text" class="form-control" id="text" cols="30" rows="10" placeholder="Message"  ></textarea>
+
                 <div class="send-button cl">
                     <button type="submit">Send</button>
                   </div>
@@ -77,11 +84,30 @@
           </p>
          </div>
 
-        
-         <div class="card-footer">
-             Footer
-         </div>
-     </div>
+         
+    <footer class="footer">
+        <nav class="navbar navbar-default navbar-custom">
+            <div class="container-fluid">
+                <div class="nav navbar-nav navbar-left">
+                      <a href="https://www.linkedin.com/in/nicholas-l-004711174/"><i id="social-in" class="fab fa-linkedin fa-3x"></i></a>
+                      
+                      <a href="https://twitter.com/NicholasLe19"><i id="social-tw" class="fab fa-twitter-square fa-3x"></i></a>
+                      
+                      <a href="https://github.com/NLe031"><i id="social-gh" class="fab fa-github fa-3x"></i></a>
+                      
+                      <a href="https://join.slack.com/t/nicholas-le/shared_invite/enQtNDcwODIyMTMzODI4LWFkYzBhZjllNGYwMDk5ZDI0ZmJiNWI0M2EzMDRiYmE1NWFiOTJiY2IxYTE1N2Y0ODVjNWFiY2NkYjgwODc1MTA"><i id="social-sl" class="fab fa-slack fa-3x"></i></a>
+                      
+                      <a href="mailto: Elmirage19@gmail.com"><i id="social-em" class="fas fa-envelope-square fa-3x"></i></a>
+                      
+                      <a href="tel:4806864602"><i id="phone" class="fas fa-mobile fa-3x"></i></a>
+                </div>
+
+                
+            </div>
+            
+        </nav>
+    </footer>
+     
 
 
 
