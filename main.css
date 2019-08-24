@@ -36,16 +36,58 @@ nav > ul > li > a.nav-link:active {
 }
 
 /* form styles */
-.send-button button[type="submit"]{
-	color: #fff;
-  background: #e74c3c;
-  border: none;
-	width: 20%;
-	padding: 10px 0;
-	font-size: 20px;
-	text-transform: uppercase;
-	transition: .5s all ease;
-  cursor: pointer;
+#contact-form {
+  margin: 5%;
+}
+
+#contact-form ul {
+  list-style: none;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+#contact-form li {
+  padding: 10px;
+
+}
+
+#contact-form li:last-of-type {
+  border-bottom: none;
+}
+
+#contact-form label {
+  display: block;
+  font-size: .8em;
+  color: #999;
+  padding-left: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #666;
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #666;
+  font-weight: bold;
+  transition: background .3s ease;
+  border: 2px solid #666;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #666;
+  color: #fff;
+}
+
+.center {
+  display: table;
+  margin: 0 auto;
 }
 
 /* footer styles */
@@ -54,7 +96,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: relative;
-  height: 150px;
+  height: 75px;
   background-color: #999999;
 }
 
