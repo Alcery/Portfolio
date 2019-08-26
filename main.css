@@ -35,6 +35,14 @@ nav > ul > li > a.nav-link:active {
     text-decoration: underline;
 }
 
+
+
+/* Body Paragraph styles */
+.card-subtitle {
+  padding-top: 10px;
+}
+
+
 /* form styles */
 #contact-form {
   margin: 5%;
