@@ -7,9 +7,20 @@
     text-align: center;
 }
 
+/* Body Styles */
+body{
+  font-weight: 350;
+  line-height: 25px;
+  position: relative;
+}
+
+div{
+  display: block;
+}
+
 /* body div styles */
- #experience {
-    height: 60vh;
+ #services {
+    height: 50vh;
     padding-top: 55px;
   }
   
@@ -42,6 +53,34 @@ nav > ul > li > a.nav-link:active {
   padding-top: 10px;
 }
 
+/* Service styles */
+.container-fluid{
+  padding: 0 30px;
+}
+
+.row{
+  margin-right: 15px;
+  margin-left: 15px;
+  box-sizing: border-box;
+}
+
+.col-md-6{
+  position: relative;
+  min-height: 3px;
+  padding: 80px;
+  background-color: #1a7777;
+}
+
+h5{
+  text-align: center;
+  color: #ffffff;
+}
+
+p.service{
+  text-align: center;
+  margin: 13px 0px;
+  color: #ffffff;
+}
 
 /* form styles */
 #contact-form {
