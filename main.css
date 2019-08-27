@@ -14,8 +14,16 @@ body{
   position: relative;
 }
 
+.card-body{
+  padding: 0px;
+}
+
 div{
   display: block;
+}
+
+p{
+  color: #FFFFFF;
 }
 
 /* body div styles */
@@ -53,14 +61,16 @@ nav > ul > li > a.nav-link:active {
   padding-top: 10px;
 }
 
+#about{
+  background-color: #1a7777;
+}
+
 /* Service styles */
 .container-fluid{
-  padding: 0 30px;
+  padding: 0px;
 }
 
 .row{
-  margin-right: 15px;
-  margin-left: 15px;
   box-sizing: border-box;
 }
 
