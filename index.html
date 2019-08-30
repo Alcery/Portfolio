@@ -101,28 +101,28 @@
             <section  id="contact">
           <div class="form-container">
           <h6 class="card-subtitle text-muted">Please use this form or the social buttons below to contact me</h6>
-          <form name="contact-form" id="contact-form" method="post" action="mailto:Elmirage19@gmail.com">
+          <form name="contactform" id="contact-form" method="post" action="mailto:Elmirage19@gmail.com" onsubmit="return(validate());">
               
               <ul>
                 
                 <li>
-                  <label for="contact-name">Name</label>
-                  <input type="text" name="contact-name" id="contact-name" required>
+                  <label for="contactname">Name</label>
+                  <input type="text" name="contactname" id="contactname"  >
                 </li>
             
                 <li>
-                  <label for="contact-email">Email</label>
-                  <input type="email" name="contact-email" id="contact-email" required>
+                  <label for="contactemail">Email</label>
+                  <input type="email" name="contactemail" id="contactemail" >
                 </li>
             
                 <li>
-                  <label for="contact-tel">Phone</label>
-                  <input type="tel" name="contact-tel" id="contact-tel">
+                  <label for="contacttel">Phone</label>
+                  <input type="tel" name="contacttel" id="contacttel">
                 </li>
             
                 <li>
-                  <label for="contact-project">Message</label>
-                  <textarea name="contact-project" id="contact-project" cols="30" rows="10" required></textarea>
+                  <label for="contactmessage">Message</label>
+                  <textarea name="contactmessage" id="contactmessage" cols="30" rows="10" ></textarea>
                 </li>
               
               </ul>
@@ -177,6 +177,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="main.js" async></script>
   </body>
 </html>
