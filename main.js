@@ -7,7 +7,7 @@ function validate() {
    var contactemail = document.contactform.contactemail;
    var contactmessage = document.contactform.contactmessage;
 
-
+   
    if (contactname.value == "") {
       alert("Please provide your name!");
       document.contactform.contactname.focus();
@@ -26,6 +26,24 @@ function validate() {
       return true;
    }
 };
+
+// Email regex
+function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+   if(inputText.value.match(mailformat))
+   {
+   document.contactform.contactemail.focus();
+   return true;
+   }
+   else
+   {
+   alert("You have entered an invalid email address!");
+   document.contactform.contactemail.focus();
+   return false;
+   }
+}
+
 
 
 
@@ -59,7 +77,7 @@ navLink[0].addEventListener("mouseenter", function (event) {
    // reset the color after a short delay
    setTimeout(function () {
       event.target.style.color = "";
-   }, 2000);
+   }, 700);
 }, false);
 
 // This event will activate every time the cursor
@@ -71,7 +89,34 @@ navLink[1].addEventListener("mouseover", function (event) {
    // reset the color after a short delay
    setTimeout(function () {
       event.target.style.color = "";
-   }, 2000);
+   }, 700);
+}, false);
+navLink[2].addEventListener("mouseover", function (event) {
+   // highlight the mouseover target
+   event.target.style.color = "#" + colorChanger;
+
+   // reset the color after a short delay
+   setTimeout(function () {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[3].addEventListener("mouseover", function (event) {
+   // highlight the mouseover target
+   event.target.style.color = "#" + colorChanger;
+
+   // reset the color after a short delay
+   setTimeout(function () {
+      event.target.style.color = "";
+   }, 700);
+}, false);
+navLink[4].addEventListener("mouseover", function (event) {
+   // highlight the mouseover target
+   event.target.style.color = "#" + colorChanger;
+
+   // reset the color after a short delay
+   setTimeout(function () {
+      event.target.style.color = "";
+   }, 700);
 }, false);
 
 
