@@ -50,8 +50,9 @@ let navLink = document.getElementsByClassName("nav-link");
 let colorChanger = Math.floor(Math.random() * 16777215).toString(16);
 console.log(colorChanger);
 // This event will activate every time the cursor
-// is moved over a nav link
+// is moved onto a nav link
 navLink[0].addEventListener("mouseenter", function (event) {
+   console.log(navLink);
    // highlight the mouseenter target
    event.target.style.color = "#" + colorChanger;
 
@@ -63,7 +64,7 @@ navLink[0].addEventListener("mouseenter", function (event) {
 
 // This event will activate every time the cursor
 // is moved over a nav link
-navLink[0].addEventListener("mouseover", function (event) {
+navLink[1].addEventListener("mouseover", function (event) {
    // highlight the mouseover target
    event.target.style.color = "#" + colorChanger;
 

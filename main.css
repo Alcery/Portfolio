@@ -20,6 +20,10 @@ body{
 .card-body{
   padding:0px;
   text-align: center;
+  display: table;
+  clear: both;
+  content: "";
+  overflow: auto;
   
 }
 
@@ -37,12 +41,14 @@ p.card-text{
     height: 50vh;
     /* padding-top: 55px; */
     position: relative;
+    overflow: auto;
   }
   
  #about, #education, #skills{
       height: 45vh;
       /* padding-top: 55px; */
       position: relative;
+      overflow: auto;
   }
   div{
   display: block;
@@ -167,6 +173,7 @@ p.service{
   transition: background .3s ease;
   border: 2px solid #666;
   border-radius: 5px;
+  
 }
 
 .btn:hover {
@@ -177,6 +184,7 @@ p.service{
 .center {
   display: table;
   margin: 0 auto;
+  margin-left: 593px;
 }
 
 .form-container{
