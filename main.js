@@ -3,9 +3,9 @@
 
 // form validation
 function validate() {
-   var contactname = document.contactform.contactname;
-   var contactemail = document.contactform.contactemail;
-   var contactmessage = document.contactform.contactmessage;
+   const contactname = document.contactform.contactname;
+   const contactemail = document.contactform.contactemail;
+   const contactmessage = document.contactform.contactmessage;
 
    
    if (contactname.value == "") {
@@ -69,7 +69,7 @@ let colorChanger = Math.floor(Math.random() * 16777215).toString(16);
 console.log(colorChanger);
 // This event will activate every time the cursor
 // is moved onto a nav link
-navLink[0].addEventListener("mouseenter", function (event) {
+navLink[0].addEventListener("mouseover", function (event) {
    console.log(navLink);
    // highlight the mouseenter target
    event.target.style.color = "#" + colorChanger;
