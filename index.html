@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
          <div class="card-header">
             <br>
             <br>
@@ -49,9 +49,10 @@
 
            <div> 
             <section id="about">
+              <img id="portfoliopic" src="imgs/portfolio-pic.jpg" alt="headshot">
           <p class="card-text">Hi! I am currently a student at West-Mec learning to be a full stack web developer. I am more proficient with HTML and CSS, but I am having a harder time understanding JavaScript.
             <br>
-            In my spare time I am reading, watching anime, learning languages or trying to get a better understanding of the languages I know, both computer languages and spoken languages.
+            In my spare time I am reading, watching anime, learning languages or trying to get a better understanding of the languages I know, both computer and spoken languages.
           </p>
         </section>
           </div>
@@ -71,11 +72,27 @@
           </div>
 
           
-          <div class="row" > 
-          <section id="skills" class="col-md-12">
-          <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, reiciendis! Tempora nobis neque odit mollitia. Aspernatur, nulla veritatis! Consectetur doloremque odio, temporibus repudiandae nostrum est non commodi. Enim, vero tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus doloremque commodi consequatur accusantium nisi aliquam, hic optio natus voluptatem quisquam, neque modi ipsum? Soluta porro quas voluptatibus ullam aspernatur amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis architecto eos sint tempora reprehenderit iure deserunt similique aliquid delectus. Recusandae non architecto, sunt at odio maiores dolorem sequi! Aliquam, vel? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere itaque necessitatibus exercitationem aliquam dolorem nam rerum nemo, corporis laboriosam odio voluptates maiores officia recusandae corrupti tempore dicta similique. Saepe?</p>
-          </section>
-        </div>
+          <div id="skills" class="row">
+              <div  class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">HTML</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">CSS</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">JavaScript</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Bootstrap</a>
+                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">PhotoShop</a>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                </div>
+              </div>
+            </div>
       
 
 
