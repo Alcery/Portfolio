@@ -65,11 +65,11 @@ div.row{
 }
 
 
-div#skills{
+div#education{
   color: #FFFFFF;
   padding-top: 0px;
   background-color: #E040A0;
-  height: 37vh;
+  height: 41vh;
 }
 
 div.col-4{
@@ -103,8 +103,8 @@ nav > ul > li > a.nav-link:active {
   padding-top: 10px;
 }
 
-section#education{
-  height: 45vh;
+section#skills{
+  height: 60vh;
 }
 
 #about{
