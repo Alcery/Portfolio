@@ -69,17 +69,17 @@ div#education{
   color: #FFFFFF;
   padding-top: 0px;
   background-color: #E040A0;
-  height: 42vh;
+  height: 41vh;
 }
 
 div.col-4{
   padding: 0px;
   padding-right: 15px;
-   height: 45vh;
+   height: 44vh;
 }
 
 div.col-4 > ul > li {
-height: 10vh;
+height: 6vh;
 }
 
 div.col-8{
@@ -110,7 +110,7 @@ nav > ul > li > a.nav-link:active {
 }
 
 section#skills{
-  height: 55vh;
+  height: 50vh;
 }
 
 
