@@ -44,7 +44,7 @@ body{
   }
   
  #about, #education, #skills{
-      height: 45vh;
+      height: 50vh;
       /* padding-top: 55px; */
       position: relative;
       
@@ -69,12 +69,13 @@ div#education{
   color: #FFFFFF;
   padding-top: 0px;
   background-color: #E040A0;
-  height: 41vh;
+  height: 42vh;
 }
 
 div.col-4{
   padding: 0px;
   padding-right: 15px;
+   height: 50vh;
 }
 div.col-8{
   padding: 0px;
