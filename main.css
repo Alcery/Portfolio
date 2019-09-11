@@ -75,12 +75,12 @@ div#education{
 div.col-4{
   padding: 0px;
   padding-right: 15px;
-   height: 42vh;
+   height: 40vh;
 }
 
-div.col-4 > ul > li {
+/* div.col-4 > ul > li {
 height: 6vh;
-}
+} */
 
 div.col-8{
   padding: 0px;
@@ -110,7 +110,7 @@ nav > ul > li > a.nav-link:active {
 }
 
 section#skills{
-  height: 52vh;
+  height: 51vh;
 }
 
 
