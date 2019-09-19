@@ -15,16 +15,33 @@
  
 /* Extra large devices (large desktops, 1300px and up) */
 @media (min-width: 1300px) {
-    #about{
-        height: 100vh;
+    div{
+        clear: both;
+        content: "";
+        
     }
+    #about{
+        padding-top: 50px;
+        margin-bottom: 0px;
+        height: 70vh;
+        background-color: #40A0E0;
+        position: relative;
+      }
     div#education{
         color: #FFFFFF;
         padding-top: 0px;
         background-color: #E040A0;
-        height: 500vh;
+        height: 120vh;
+        position: relative;
       }  
     section#skills{
         height: 60vh;
+        position: relative;
+      }
+      img#portfoliopic {
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
       }
 }
